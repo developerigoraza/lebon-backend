@@ -1,4 +1,4 @@
-const Booking = require("../../model/menuModel");
+const Menu = require("../../model/menuModel");
 const addItemToMenu = async (req, res) => {
   try {
     const { itemName, description, itemImage, price } = req.body;

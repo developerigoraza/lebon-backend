@@ -5,6 +5,6 @@ const {
 
 const routes = express.Router();
 
-routes.post("/addToMenu", addItemToMenu);
+routes.post("/addtomenu", addItemToMenu);
 
 module.exports = routes;
