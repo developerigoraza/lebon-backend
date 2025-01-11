@@ -1,7 +1,7 @@
 const express = require("express");
 const {
   addItemToMenu,
-} = require("../controllers/adminControllers/adminController");
+} = require("../controllers/adminControllers/menuController");
 
 const routes = express.Router();
 
